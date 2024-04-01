@@ -39,7 +39,6 @@
 
         return $arrayDataFile;
     }
-
 ?>
 <header class="header">
     <nav class="navbar navbar-expand-xxl  navbar-dark bg-dark">
@@ -92,19 +91,19 @@
                     </thead>
                     <tbody>
                     <?php
-                    for ($i = 1; $i < count($products); $i++) {
-                        ?>
+                        for ($i = 1; $i < count($products); $i++) {
+                    ?>
                         <tr>
                             <?php
-                            foreach ($products[$i] as $product) {
-                                ?>
+                                foreach ($products[$i] as $product) {
+                            ?>
                                 <td><?php echo $product?></td>
-                                <?php
-                            }
+                            <?php
+                                }
                             ?>
                         </tr>
-                        <?php
-                    }
+                    <?php
+                        }
                     ?>
                     </tbody>
                 </table>
@@ -112,10 +111,7 @@
             } else {
                 echo 'Вы не загрузили файл';
             }
-
         ?>
-
-
     </div>
 </main>
 </body>
