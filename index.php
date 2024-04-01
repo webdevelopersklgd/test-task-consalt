@@ -63,9 +63,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Записать</button>
         </form>
-        <div class="alert" role="alert">
-            A simple success alert—check it out!
-        </div>
+        <div class="alert" role="alert"></div>
     </div>
 </main>
 
