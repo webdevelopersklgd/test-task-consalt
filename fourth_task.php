@@ -38,9 +38,9 @@
         <div class="container">
             <h2 class="my-5">Задание 4. SQL запрос</h2>
             <code>
-                SELECT user.user_id, user.firstName, user.lastName, city.city
-                FROM user
-                JOIN city
+                SELECT user.user_id, user.firstName, user.lastName, city.city <br>
+                FROM user<br>
+                JOIN city<br>
                 ON user.city_id=city.city_id;
             </code>
         </div>

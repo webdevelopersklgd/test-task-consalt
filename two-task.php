@@ -15,9 +15,9 @@
 
     $products = array();
 
-    $CSVFile = uploadFile('csvFile', 'text/csv');
+    if ($_FILES) {
+        $CSVFile = uploadFile('csvFile', 'text/csv');
 
-        if (file_exists($CSVFile)) {
         try {
             $products = getCSV($CSVFile);
         } catch (Exception $e) {
