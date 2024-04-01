@@ -1,6 +1,5 @@
 const feedbackForm = document.getElementById('feedbackForm');
 
-
 feedbackForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
