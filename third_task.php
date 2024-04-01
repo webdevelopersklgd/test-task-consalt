@@ -29,7 +29,7 @@ for ($j = 0; $j < 1000; $j++) {
                         <a class="nav-link" href="index.php">1 - задание</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="two_work.php">2 - задание</a>
+                        <a class="nav-link" href="two-task.php">2 - задание</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">3 - задание</a>

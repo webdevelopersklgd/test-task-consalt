@@ -23,7 +23,7 @@
                         <a class="nav-link active" aria-current="page" href="#">1 - задание</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="two_work.php">2 - задание</a>
+                        <a class="nav-link" href="two-task.php">2 - задание</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="third_task.php">3 - задание</a>
